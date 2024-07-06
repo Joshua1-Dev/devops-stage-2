@@ -22,6 +22,7 @@ services:
       - PROJECT_NAME=Full Stack FastAPI Project
       - FIRST_SUPERUSER=devops@hng.tech
       - FIRST_SUPERUSER_PASSWORD=devops#HNG11
+      - USERS_OPEN_REGISTRATION=True
       - POSTGRES_SERVER=postgres
       - POSTGRES_PORT=5432
       - POSTGRES_DB=db
