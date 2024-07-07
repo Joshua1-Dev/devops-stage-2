@@ -27,18 +27,18 @@ services:
       - USERS_OPEN_REGISTRATION=True
       - POSTGRES_SERVER=postgres
       - POSTGRES_PORT=5432
-      - POSTGRES_DB=db
-      - POSTGRES_USER=username
-      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=app
+      - POSTGRES_USER=app
+      - POSTGRES_PASSWORD=changethis123
 
   postgres:
     image: 'postgres:15'
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_USER: username
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: db
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: changethis123
+      POSTGRES_DB: app
 
   proxy:
     image: 'jc21/nginx-proxy-manager:latest'
