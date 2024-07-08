@@ -23,8 +23,8 @@ services:
       - FIRST_SUPERUSER=devops@hng.tech
       - FIRST_SUPERUSER_PASSWORD=devops#HNG11
       - USERS_OPEN_REGISTRATION=true
-      - POSTGRES_SERVER=aws-0-eu-central-1.pooler.supabase.com
-      - POSTGRES_PORT=6543
+      - POSTGRES_SERVER=Server
+      - POSTGRES_PORT=Port
       - POSTGRES_DB=Db
       - POSTGRES_USER=User
       - POSTGRES_PASSWORD=Password
