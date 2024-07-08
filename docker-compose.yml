@@ -5,8 +5,8 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
-      args:
-        - VITE_API_URL=https://api.josh.tech.mooo.com/docs
+    environment:
+      - VITE_API_URL="https://api.josh.tech.mooo.com/docs"
     ports:
       - "3000:80"
 
@@ -25,9 +25,9 @@ services:
       - USERS_OPEN_REGISTRATION=true
       - POSTGRES_SERVER=aws-0-eu-central-1.pooler.supabase.com
       - POSTGRES_PORT=6543
-      - POSTGRES_DB=db
-      - POSTGRES_USER=user
-      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres.edlycoygajaszpwqasyg
+      - POSTGRES_PASSWORD=Badoo070123$
 
   postgres:
     image: 'postgres:15'

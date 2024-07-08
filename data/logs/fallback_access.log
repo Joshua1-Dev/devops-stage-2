@@ -38,3 +38,7 @@
 [08/Jul/2024:22:44:30 +0000] 304 - GET http 44.204.72.218 "/" [Client 98.97.79.166] [Length 0] [Gzip -] "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" "-"
 [08/Jul/2024:22:44:30 +0000] 304 - GET http 44.204.72.218 "/" [Client 98.97.79.166] [Length 0] [Gzip -] "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" "-"
 [08/Jul/2024:22:53:44 +0000] 400 - - http localhost-nginx-proxy-manager "-" [Client 139.162.155.225] [Length 154] [Gzip -] "-" "-"
+[08/Jul/2024:22:56:08 +0000] 400 - GET https localhost "/" [Client 91.243.50.206] [Length 154] [Gzip -] "-" "-"
+[08/Jul/2024:22:56:13 +0000] 400 - GET https localhost "/" [Client 80.82.77.202] [Length 154] [Gzip -] "-" "-"
+[08/Jul/2024:23:07:02 +0000] 400 - - http localhost "-" [Client 45.33.109.17] [Length 154] [Gzip -] "-" "-"
+[08/Jul/2024:23:13:59 +0000] 400 - - http localhost-nginx-proxy-manager "-" [Client 146.190.242.161] [Length 154] [Gzip -] "-" "-"
