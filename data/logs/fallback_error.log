@@ -1,0 +1,14 @@
+2024/07/08 18:59:26 [alert] 183#183: 512 worker_connections are not enough
+2024/07/08 18:59:26 [error] 183#183: *504 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /static/styles.css HTTP/1.1", upstream: "http://127.0.0.1:80/static/styles.css", host: "4.180.125.102", referrer: "http://4.180.125.102/"
+2024/07/08 22:24:51 [error] 206#206: *169 open() "/var/www/html/login" failed (2: No such file or directory), client: 197.210.227.108, server: localhost-nginx-proxy-manager, request: "GET /login HTTP/1.1", host: "josh.tech.mooo.com"
+2024/07/08 22:32:38 [warn] 153#153: server name "josh.tech.mooo.com/" has suspicious symbols in /data/nginx/redirection_host/1.conf:16
+2024/07/08 22:33:16 [warn] 239#239: 512 worker_connections are not enough, reusing connections
+2024/07/08 22:33:16 [alert] 239#239: 512 worker_connections are not enough
+2024/07/08 22:33:16 [error] 240#240: *1114 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /assets/index-g861r6m6.js HTTP/1.1", upstream: "http://127.0.0.1:80/assets/index-g861r6m6.js", host: "josh.tech.mooo.com", referrer: "http://josh.tech.mooo.com/"
+2024/07/08 22:34:23 [warn] 239#239: 512 worker_connections are not enough, reusing connections
+2024/07/08 22:34:23 [alert] 239#239: 512 worker_connections are not enough
+2024/07/08 22:34:23 [error] 240#240: *2064 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "josh.tech.mooo.com", referrer: "http://josh.tech.mooo.com/"
+2024/07/08 22:34:31 [error] 239#239: *2068 open() "/var/www/html/.git/config" failed (2: No such file or directory), client: 185.196.9.227, server: localhost-nginx-proxy-manager, request: "GET /.git/config HTTP/1.1", host: "josh.tech.mooo.com"
+2024/07/08 22:34:48 [warn] 153#153: server name "josh.tech.mooo.com/" has suspicious symbols in /data/nginx/redirection_host/1.conf:16
+2024/07/08 22:35:04 [warn] 153#153: server name "josh.tech.mooo.com/" has suspicious symbols in /data/nginx/redirection_host/1.conf:19
+2024/07/08 22:35:09 [error] 261#261: *2085 open() "/var/www/html/.git/config" failed (2: No such file or directory), client: 185.196.9.227, server: localhost-nginx-proxy-manager, request: "GET /.git/config HTTP/1.1", host: "josh.tech.mooo.com"
