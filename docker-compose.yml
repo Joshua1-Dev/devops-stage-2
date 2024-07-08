@@ -25,18 +25,18 @@ services:
       - USERS_OPEN_REGISTRATION=true
       - POSTGRES_SERVER=aws-0-eu-central-1.pooler.supabase.com
       - POSTGRES_PORT=6543
-      - POSTGRES_DB=postgres
-      - POSTGRES_USER=postgres.edlycoygajaszpwqasyg
-      - POSTGRES_PASSWORD=Badoo070123$
+      - POSTGRES_DB=Db
+      - POSTGRES_USER=User
+      - POSTGRES_PASSWORD=Password
 
   postgres:
     image: 'postgres:15'
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: db
+      POSTGRES_USER: User
+      POSTGRES_PASSWORD: Password
+      POSTGRES_DB: Db
 
 
   
