@@ -37,8 +37,6 @@ services:
       POSTGRES_USER: User
       POSTGRES_PASSWORD: Password
       POSTGRES_DB: Db
-
-
   
   adminer:
     image: adminer:latest
